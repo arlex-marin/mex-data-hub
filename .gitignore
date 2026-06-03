@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Datos grandes (pueden reconstruirse)
+data/staging_dbf/*.jsonl
+data/staging_dbf/*.meta.json
+data/staging_xlsx/*.jsonl
+data/staging_xlsx/*.meta.json
+
+# Base de datos SQLite (puede reconstruirse)
+data/datos_pdp.db
+data/datos_pdp_fts.db
+data/datos_pdp_opt.db
+data/test_pdp.db
+
+# Archivos fuente INEGI (descarga externa)
+microdatos_tabulados/
+
+# Temp files
+*.tmp
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

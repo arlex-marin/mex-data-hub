@@ -1,0 +1,35 @@
+# Dependencias — Plataforma de Datos Públicos Mexicanos (PDP)
+
+# === Parseo ===
+dbfread>=2.0.7          # Parseo de archivos DBF (CP850→UTF-8)
+openpyxl>=3.1.5         # Parseo de archivos XLSX
+
+# === API REST (Fase 1.1) ===
+fastapi>=0.115           # Framework REST con OpenAPI automática
+uvicorn>=0.34            # Servidor ASGI
+pydantic>=2.10           # Validación de datos (incluido con fastapi)
+
+# === Tests ===
+pytest>=8.0              # Framework de pruebas
+
+# === Backend (Fase 1 - opcional hasta implementar) ===
+# flask>=3.0              # API REST
+# flask-cors>=4.0         # CORS para frontend
+
+# === Frontend (Fase 2 - opcional hasta implementar) ===
+# plotly>=5.18            # Gráficas interactivas
+# folium>=0.15            # Mapas coropléticos
+
+# === Redes (Fase 3 - opcional hasta implementar) ===
+# networkx>=3.1           # Construcción de grafos
+# igraph>=0.11            # Análisis de redes (opcional)
+
+# === Utilidades ===
+# numpy>=1.26             # Operaciones numéricas
+# pandas>=2.1             # Manipulación de datos
+
+# Instalación:
+#   pip install -r requirements.txt
+#
+# Para instalar solo lo necesario para Fase 0:
+#   pip install dbfread openpyxl
