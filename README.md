@@ -1,4 +1,4 @@
-# code-pdp — Código de la Plataforma de Datos Públicos Mexicanos
+# Plataforma de Datos Públicos Mexicanos
 
 [![Tests](https://github.com/arlex-marin/mex-data-hub/actions/workflows/tests.yml/badge.svg)](https://github.com/arlex-marin/mex-data-hub/actions/workflows/tests.yml)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue)]()
