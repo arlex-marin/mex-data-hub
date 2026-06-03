@@ -4,8 +4,9 @@
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue)]()
 [![SQLite + FTS5](https://img.shields.io/badge/SQLite-FTS5-green)]()
 [![License](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey)]()
+[![Roadmap](https://img.shields.io/badge/Roadmap-ver-green)](ROADMAP.md)
 
-Pipeline de ingesta, parseo y carga de datos INEGI (CNGF, CNGE, CNGMD) a SQLite + FTS5.
+Pipeline de ingesta, parseo y API REST para datos unificados
 
 ## Requisitos
 
